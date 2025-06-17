@@ -9,7 +9,7 @@ export default function Navbar() {
     { name: "Contact", path: "/contact" },
   ];
   return (
-    <header className="px-3 py-12 flex justify-center items-center">
+    <header className="px-3 py-6 md:py-8 flex justify-center items-center">
       <nav className="bg-lilac space-x-3 px-8 py-3 rounded-full">
         {/* <ul className="flex space-x-3 px-8 py-3 rounded-full bg-gradient-lilac text-background font-heading tracking-tighter transition"></ul> */}
         {navitems.map((item) => (

@@ -19,7 +19,7 @@ const contentVariants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { delay: 1, duration: 0.5 },
+    transition: { delay: 1, duration: 1.0 },
   },
 };
 
