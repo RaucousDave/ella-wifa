@@ -8,18 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "#121212", // main background
-        surface: "#1E1E1E", // for cards/sections
-        lilac: {
-          light: "#EAD9FF",
-          DEFAULT: "#CBA6F7",
-          dark: "#A37CCF",
-        },
-        grayish: "#EAEAEA", // for body text
+        primary: {
+          light: "hsl(286, 80%, 72%)",
+          dark: "hsl(286, 70%, 40%)", // deeper, for hover or bg
+        }, // bright orchid
+        background: "#0e0e11",
+        foreground: "#f5f5f5",
       },
       fontFamily: {
-        sentient: ['"Sentient"', "serif"],
-        heading: "Be Vietnam Pro",
+        heading: ['"Hatton"', "serif"],
+        body: ['"Be Vietnam Pro"', "sans-serif"],
       },
       backgroundImage: {
         // Optional soft gradients for blobs or sections

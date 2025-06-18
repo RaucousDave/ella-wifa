@@ -34,14 +34,14 @@ export default function Loader({ onFinish }) {
     <AnimatePresence>
       {loading && (
         <motion.div
-          className="fixed top-0 left-0 w-full h-screen bg-gradient-spotlight z-[9999] flex items-center justify-center"
+          className="fixed top-0 left-0 w-full h-screen bg-background z-[9999] flex items-center justify-center"
           variants={slideVariants}
           initial="initial"
           exit="exit"
         >
           {/* You can add a logo, spinner, or animation here */}
-          <h1 className="text-background text-4xl font-sentient tracking-tight">
-            Lolia Wifa
+          <h1 className="text-primary-light text-4xl font-heading tracking-tight">
+            Immanuella Wifa
           </h1>
         </motion.div>
       )}

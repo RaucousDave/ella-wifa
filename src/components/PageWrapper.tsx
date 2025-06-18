@@ -40,7 +40,7 @@ export default function PageWrapper({ children }) {
       <AnimatePresence>
         <motion.div
           key="slider"
-          className="fixed top-0 left-0 w-full h-screen bg-gradient-lilac z-50"
+          className="fixed top-0 left-0 w-full h-screen bg-primary-light z-50"
           variants={slideVariants}
           initial="initial"
           animate="animate"

@@ -29,24 +29,24 @@ export default function Services() {
   return (
     <PageWrapper>
       {/* Hero Section */}
-      <section className="h-[30vh] bg-lilac-dark flex justify-center items-center">
-        <h1 className="text-background font-sentient text-5xl  tracking-tighter">
+      <section className="h-[30vh] bg-primary-light flex justify-center items-center">
+        <h1 className="text-background font-heading text-5xl tracking-tight ">
           What I Do
         </h1>
       </section>
 
       {/* Services Grid */}
-      <section className="bg-background text-foreground py-20 px-6 md:px-16">
+      <section className="bg-background text-background py-20 px-6 md:px-16">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
           {services.map((service) => (
             <div
               key={service.title}
-              className="bg-lilac-dark p-6 rounded-xl hover:bg-background hover:text-lilac-dark transition"
+              className="bg-primary-light p-6 rounded-xl hover:bg-background shadow-lilac hover:text-primary-light transition"
             >
-              <h3 className="font-sentient tracking-tighter text-2xl mb-3">
+              <h3 className="font-heading tracking-tight text-2xl mb-3">
                 {service.title}
               </h3>
-              <p className="font-heading tracking-tight text-sm leading-relaxed">
+              <p className="font-body tracking-tight text-sm leading-relaxed">
                 {service.description}
               </p>
             </div>
@@ -57,16 +57,16 @@ export default function Services() {
       {/* Custom Offers Section */}
       <section className="bg-background text-foreground px-6 md:px-16 pb-24 text-center">
         <FadeIn>
-          <h2 className="font-sentient tracking-tighter text-3xl text-lilac-dark mb-3">
+          <h2 className="font-heading tracking-tight text-3xl text-primary-light mb-3">
             Need something custom?
           </h2>
-          <p className="font-heading tracking-tight text-lilac-dark max-w-2xl mx-auto text-sm md:text-lg mb-6">
+          <p className="font-body tracking-tight text-primary-light max-w-2xl mx-auto text-sm md:text-lg mb-6">
             Whether it’s a brand audit, content templates, or consultation — I
             can create something unique just for your vision.
           </p>
           <Link
             to="/contact"
-            className="bg-lilac-dark text-background px-6 py-3 rounded-full tracking-tight font-heading hover:bg-lilac transition"
+            className="bg-primary-light hover:bg-primary-dark text-background px-6 py-3 rounded-full tracking-tight font-body hover:bg-lilac transition"
           >
             Let’s Talk
           </Link>

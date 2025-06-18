@@ -23,3 +23,12 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #a37ccf;
 }
+@font-face {
+  font-family: "Hatton";
+  src: url("/fonts/PPHatton-Bold.woff"), url("/fonts/PPHatton-Bold.woff2"),
+    url("/fonts/PPHatton-Medium.woff"), url("/fonts/PPHatton-Ultralight.woff"),
+    url("/fonts/PPHatton-Medium.woff2"), url("/fonts/PPHatton-Ultralight.woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
