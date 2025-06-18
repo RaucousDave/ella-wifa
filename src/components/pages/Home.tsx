@@ -20,7 +20,7 @@ export default function Home() {
         </h1>
         <div className="flex flex-col md:flex-row py-12 px-6 gap-8 items-center">
           {/* IMAGE SIDE */}
-          <div className="w-full md:w-[50%] flex justify-center">
+          <div className="w-full md:w-[170%] flex justify-center">
             <FadeIn>
               <div className="md:max-w-[400px] w-full h-[450px] rounded-3xl overflow-hidden  shadow-lilac">
                 <img
@@ -33,9 +33,9 @@ export default function Home() {
             </FadeIn>
           </div>
           {/* TEXT SIDE */}
-          <div className="text-primary-light md:w-[50%] font-body md:text-lg tracking-tighter leading-relaxed">
-            <FadeIn>
-              <p className="mb-8">
+          <FadeIn>
+            <div className="text-primary-light flex sm:inline flex-col justify-center items-center md:w-[50%] font-body md:text-lg tracking-tighter leading-relaxed">
+              <p className="mb-8 text-center sm:text-left">
                 I’m a graphic designer who transforms blank spaces into bold
                 visuals that connect, convert, and leave a lasting impression.
                 Whether it’s branding, digital content, or marketing design, I
@@ -51,8 +51,8 @@ export default function Home() {
               >
                 Check Out My Work
               </Link>
-            </FadeIn>
-          </div>
+            </div>
+          </FadeIn>
         </div>
       </section>
     </PageWrapper>

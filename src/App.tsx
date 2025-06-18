@@ -4,7 +4,7 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 import Navbar from "./components/Navbar";
 import { BrowserRouter } from "react-router-dom";
 
-export default function App() {
+export default function App({}) {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (

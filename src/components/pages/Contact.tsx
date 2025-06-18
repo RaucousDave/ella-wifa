@@ -64,15 +64,15 @@ export default function Contact() {
           {/* Social Links */}
           <div className="flex flex-col justify-center space-y-6 text-center md:text-left">
             <FadeIn>
-              <h2 className="text-2xl font-body tracking-tighter text-primary-light">
+              <h2 className="text-3xl font-body tracking-tighter text-primary-light mb-2">
                 Let's connect
               </h2>
-              <p className="font-body text-sm tracking-tight text-gray-400 max-w-md mx-auto md:mx-0">
+              <p className="font-body text-base tracking-tight text-gray-400 max-w-md mx-auto md:mx-0">
                 Whether it's a question, a collaboration, or a brand idea — I'm
                 just a message away.
               </p>
             </FadeIn>
-            <div className="flex justify-center md:justify-start gap-6 text-primary-light text-xl">
+            <div className="flex justify-center md:justify-start gap-6 text-primary-light text-2xl">
               <a
                 href="https://www.linkedin.com/in/immanuella-wifa-22m03"
                 target="_blank"

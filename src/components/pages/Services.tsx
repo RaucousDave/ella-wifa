@@ -43,10 +43,10 @@ export default function Services() {
               key={service.title}
               className="bg-primary-light p-6 rounded-xl hover:bg-background shadow-lilac hover:text-primary-light transition"
             >
-              <h3 className="font-heading tracking-tight text-2xl mb-3">
+              <h3 className="font-heading text-center sm:text-left tracking-tight text-2xl mb-3">
                 {service.title}
               </h3>
-              <p className="font-body tracking-tight text-sm leading-relaxed">
+              <p className="font-body tracking-tight text-center sm:text-left text-sm leading-relaxed">
                 {service.description}
               </p>
             </div>
