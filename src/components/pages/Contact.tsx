@@ -77,7 +77,7 @@ export default function Contact() {
                 href="https://www.linkedin.com/in/immanuella-wifa-22m03"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-lilac transition"
+                className="hover:text-primary-darks transition"
               >
                 <FaLinkedin />
               </a>
@@ -85,15 +85,15 @@ export default function Contact() {
                 href="https://wa.me/2349060321070"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-lilac transition"
+                className="hover:text-primary-darks transition"
               >
                 <FaWhatsapp />
               </a>
               <a
-                href="https://www.behance.net/loliawifa"
+                href="https://www.behance.net/ellawifa/info"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-lilac transition"
+                className="hover:text-primary-darks transition"
               >
                 <FaBehance />
               </a>
@@ -101,7 +101,7 @@ export default function Contact() {
                 href="https://www.facebook.com/share/15g6BnyAv1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-lilac transition"
+                className="hover:text-primary-darks transition"
               >
                 <FaFacebook />
               </a>
