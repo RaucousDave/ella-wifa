@@ -18,7 +18,7 @@ export default function Navbar() {
             to={item.path}
             className={`font-body tracking-tighter ${
               location.pathname === item.path
-                ? "text-primary-dark"
+                ? "text-primary-light bg-background rounded-full p-3"
                 : "text-background"
             }`}
           >
