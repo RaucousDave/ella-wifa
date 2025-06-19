@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Toaster } from "react-hot-toast";
 import Loader from "./components/Loader";
 import AnimatedRoutes from "./components/AnimatedRoutes";
 import Navbar from "./components/Navbar";
@@ -13,6 +14,7 @@ export default function App({}) {
         {!isLoaded && <Loader onFinish={() => setIsLoaded(true)} />}
         {isLoaded && (
           <>
+            <Toaster position="top-center" reverseOrder={false} />
             <Navbar />
             <AnimatedRoutes />
           </>
