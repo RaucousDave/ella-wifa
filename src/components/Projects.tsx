@@ -25,6 +25,7 @@ export default function Gallery() {
           <img
             key={img.id}
             src={`https://res.cloudinary.com/dfdnwhjln/image/upload/${img.publicId}`}
+            loading="lazy"
             alt={img.publicId}
             className="rounded-xl w-full object-cover"
           />
