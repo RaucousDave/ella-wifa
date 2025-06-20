@@ -22,9 +22,9 @@ export default function Home() {
           {/* IMAGE SIDE */}
           <div className="w-full md:w-[170%] flex justify-center">
             <FadeIn>
-              <div className="md:max-w-[500px] w-full h-[500px] rounded-3xl overflow-hidden  shadow-lilac">
+              <div className="md:max-w-[500px] w-full h-[500px] rounded-3xl overflow-hidden shadow-lilac">
                 <img
-                  src="/assets/Immanuella.JPG"
+                  src="assets/Immanuella.JPG"
                   alt="Immanuella Wifa"
                   loading="lazy"
                   className="w-full h-full object-cover rounded-3xl"
