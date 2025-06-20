@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Image } from "cloudinary-react";
 import { gallery } from "./gallery";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -23,16 +22,11 @@ export default function Gallery() {
           }}
           className="cursor-zoom-in"
         >
-          <Image
-            cloudName="dfdnwhjln"
-            publicId={img.publicId}
-            width="auto"
-            crop="scale"
-            quality="auto"
-            fetchFormat="auto"
-            loading="lazy"
-            alt={`work-${img.id}`}
-            className="rounded-lg shadow-lg w-full"
+          <img
+            key={img.id}
+            src={`https://res.cloudinary.com/dfdnwhjln/image/upload/${img.publicId}`}
+            alt={img.publicId}
+            className="rounded-xl w-full object-cover"
           />
         </div>
       ))}

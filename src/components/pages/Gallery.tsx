@@ -10,7 +10,7 @@ export default function Gallery() {
         </h1>
       </section>
 
-      <main className="px-6 py-8">
+      <main className="px-6 py-8 sm:py-12">
         <div className="grid md:grid-cols-2 gap-6">
           <Projects />
         </div>
