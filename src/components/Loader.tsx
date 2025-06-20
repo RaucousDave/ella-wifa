@@ -5,11 +5,16 @@ const slideVariants = {
   initial: { y: 0 },
   exit: {
     y: "-100%",
-    transition: { duration: 1, ease: [0.76, 0, 0.24, 1] },
+    transition: {
+      duration: 1,
+      ease: [0.76, 0, 0.24, 1] as [number, number, number, number],
+    },
   },
 };
-
-export default function Loader({ onFinish }) {
+type LoaderProps = {
+  onFinish: () => void;
+};
+export default function Loader({ onFinish }: LoaderProps) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

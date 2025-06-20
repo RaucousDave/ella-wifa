@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
+import type { ReactNode } from "react";
 
 const slideVariants = {
   initial: {
@@ -7,14 +8,23 @@ const slideVariants = {
   },
   animate: {
     x: "100%",
-    transition: { duration: 1, ease: [0.76, 0, 0.24, 1] },
+    transition: {
+      duration: 1,
+      ease: [0.76, 0, 0.24, 1] as [number, number, number, number],
+    },
   },
   exit: {
     x: "0%",
-    transition: { duration: 1, ease: [0.76, 0, 0.24, 1] },
+    transition: {
+      duration: 1,
+      ease: [0.76, 0, 0.24, 1] as [number, number, number, number],
+    },
   },
 };
 
+type Props = {
+  children: ReactNode;
+};
 const contentVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -23,7 +33,7 @@ const contentVariants = {
   },
 };
 
-export default function PageWrapper({ children }) {
+export default function PageWrapper({ children }: Props) {
   const [showContent, setShowContent] = useState(false);
 
   useEffect(() => {
