@@ -1,8 +1,13 @@
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import type { ReactNode } from "react";
 
-export default function FadeIn({ children, delay = 0 }) {
+type FadeInProps = {
+  children: ReactNode;
+  delay: number;
+};
+export default function FadeIn({ children, delay = 0 }: FadeInProps) {
   const controls = useAnimation();
   const [ref, inView] = useInView({
     triggerOnce: true, // Only animate once
