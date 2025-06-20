@@ -1,4 +1,5 @@
 import PageWrapper from "../PageWrapper";
+import Projects from "../Projects";
 
 export default function Gallery() {
   return (
@@ -8,13 +9,11 @@ export default function Gallery() {
           My Work
         </h1>
       </section>
-      <main className=" px-6 py-8">
-        <p className="font-body text-primary-light tracking-tighter text-lg text-center">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
-          deleniti earum excepturi recusandae, distinctio quibusdam quo cum
-          neque error mollitia voluptatum possimus molestias fuga? Nihil culpa
-          unde rem commodi eligendi?
-        </p>
+
+      <main className="px-6 py-8">
+        <div className="grid md:grid-cols-2 gap-6">
+          <Projects />
+        </div>
       </main>
     </PageWrapper>
   );

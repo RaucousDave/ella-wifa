@@ -1,7 +1,6 @@
 import FadeIn from "../FadeIn";
 import PageWrapper from "../PageWrapper";
 import { Link } from "react-router-dom";
-import { Image } from "@imagekit/react";
 
 export default function Home() {
   return (
@@ -24,17 +23,11 @@ export default function Home() {
           <div className="w-full md:w-[170%] flex justify-center">
             <FadeIn>
               <div className="md:max-w-[500px] w-full h-[500px] rounded-3xl overflow-hidden  shadow-lilac">
-                {/* <img
+                <img
                   src="/assets/Immanuella.JPG"
                   alt="Immanuella Wifa"
                   loading="lazy"
                   className="w-full h-full object-cover rounded-3xl"
-                /> */}
-                <Image
-                  urlEndpoint="https://ik.imagekit.io/8znpifxid/"
-                  src="assets/Immanuella.JPG"
-                  loading="eager"
-                  alt="Immanuella Wifa"
                 />
               </div>
             </FadeIn>
