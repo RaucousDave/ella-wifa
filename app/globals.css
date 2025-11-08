@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-light: hsl(286, 80%, 72%);
+    --color-primary-dark: hsl(286, 70%, 40%);
+    --color-background: #0e0e11;
+    --color-foreground: #f5f5f5;
+    --font-heading: "PPHatton";
+    --font-body: "Be Vietnam Pro"
+}
