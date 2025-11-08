@@ -1,6 +1,6 @@
 import PageWrapper from "@/app/components/PageWrapper";
 import FadeIn from "@/app/components/FadeIn";
-import Link from "next/link"
+import Link from "next/link";
 
 const page = [
   {
