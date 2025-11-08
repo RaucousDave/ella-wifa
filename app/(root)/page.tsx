@@ -27,6 +27,8 @@ export default function Home() {
 
           <a
             href="/cv/Immanuella%20Wifa%20CV.pdf"
+            target="_blank"
+            rel="noopener-referrer"
             download
             className="w-full sm:w-auto bg-background text-gray-300 border border-primary-dark px-6 py-3 rounded text-center hover:bg-primary-dark transition-colors duration-200"
           >
