@@ -1,6 +1,6 @@
 import FadeIn from "@/app/components/FadeIn";
 import PageWrapper from "@/app/components/PageWrapper";
-import Link from "next/link"
+import Link from "next/link";
 
 import Image from "next/image";
 
@@ -14,21 +14,25 @@ export default function Home() {
         <p className="font-body tracking-tight md:text-lg mb-8 text-gray-300">
           Design That Speaks. Brands That Stick
         </p>
-          <div className={"flex justify-between transition ease-linear gap-8 items-center tracking-tighter leading-relaxed font-body"}>
-              <Link
-                  href="/gallery"
-                  className="bg-primary-light hover:bg-primary-dark text-background px-6 py-3 rounded"
-              >
-                  Check Out My Work
-              </Link>
-              <a
-                  href="/cv/Immanuella%20Wifa%20CV.pdf"
-                  download
-                  className="bg-background hover:bg-primary-dark text-gray-300 border border-primary-dark px-6 py-3 rounded"
-              >
-                  Download CV
-              </a>
-          </div>
+        <div
+          className={
+            "flex sm:flex-row flex-col-reverse justify-between transition ease-linear gap-8 items-center tracking-tighter leading-relaxed font-body"
+          }
+        >
+          <Link
+            href="/gallery"
+            className="bg-primary-light w-full hover:bg-primary-dark text-background px-6 py-3 rounded"
+          >
+            Check Out My Work
+          </Link>
+          <a
+            href="/cv/Immanuella%20Wifa%20CV.pdf"
+            download
+            className="bg-background w-full text-center hover:bg-primary-dark text-gray-300 border border-primary-dark px-6 py-3 rounded"
+          >
+            Download CV
+          </a>
+        </div>
       </section>
 
       <section>

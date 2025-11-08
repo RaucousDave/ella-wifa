@@ -4,30 +4,48 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 const beVietnamPro = localFont({
-    src: [
-        { path: "./fonts/BeVietnamPro-Thin.otf", weight: "100", style: "normal" },
-        { path: "./fonts/BeVietnamPro-ExtraLight.otf", weight: "200", style: "normal" },
-        { path: "./fonts/BeVietnamPro-Light.otf", weight: "300", style: "normal" },
-        { path: "./fonts/BeVietnamPro-Regular.otf", weight: "400", style: "normal" },
-        { path: "./fonts/BeVietnamPro-Medium.otf", weight: "500", style: "normal" },
-        { path: "./fonts/BeVietnamPro-SemiBold.otf", weight: "600", style: "normal" },
-        { path: "./fonts/BeVietnamPro-Bold.otf", weight: "700", style: "normal" },
-        { path: "./fonts/BeVietnamPro-ExtraBold.otf", weight: "800", style: "normal" },
-        { path: "./fonts/BeVietnamPro-Black.otf", weight: "900", style: "normal" },
-    ],
-    variable: "--font-body",
+  src: [
+    { path: "./fonts/BeVietnamPro-Thin.otf", weight: "100", style: "normal" },
+    {
+      path: "./fonts/BeVietnamPro-ExtraLight.otf",
+      weight: "200",
+      style: "normal",
+    },
+    { path: "./fonts/BeVietnamPro-Light.otf", weight: "300", style: "normal" },
+    {
+      path: "./fonts/BeVietnamPro-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    { path: "./fonts/BeVietnamPro-Medium.otf", weight: "500", style: "normal" },
+    {
+      path: "./fonts/BeVietnamPro-SemiBold.otf",
+      weight: "600",
+      style: "normal",
+    },
+    { path: "./fonts/BeVietnamPro-Bold.otf", weight: "700", style: "normal" },
+    {
+      path: "./fonts/BeVietnamPro-ExtraBold.otf",
+      weight: "800",
+      style: "normal",
+    },
+    { path: "./fonts/BeVietnamPro-Black.otf", weight: "900", style: "normal" },
+  ],
+  variable: "--font-body",
 });
 
 const ppHatton = localFont({
-    src: [
-        { path: "./fonts/PPHatton-Ultralight.woff2", weight: "100", style: "normal" },
-        { path: "./fonts/PPHatton-Medium.woff2", weight: "500", style: "normal" },
-        { path: "./fonts/PPHatton-Bold.woff2", weight: "700", style: "normal" },
-    ],
-    variable: "--font-heading",
+  src: [
+    {
+      path: "./fonts/PPHatton-Ultralight.woff2",
+      weight: "100",
+      style: "normal",
+    },
+    { path: "./fonts/PPHatton-Medium.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/PPHatton-Bold.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-heading",
 });
-
-
 
 export const metadata: Metadata = {
   title: "Ella Wifa",
@@ -42,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${beVietnamPro.variable} ${ppHatton.variable} antialiased`}
+        className={`${beVietnamPro.variable} ${ppHatton.variable} bg-background antialiased`}
       >
         {children}
       </body>
