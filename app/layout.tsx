@@ -48,8 +48,8 @@ const ppHatton = localFont({
 });
 
 export const metadata = {
-  title: "Ella WiFi | Graphic Design Portfolio",
-  description: "A showcase of Ella WiFi’s clean, thoughtful, and expressive graphic design work — where simplicity meets impact.",
+  title: "Ella Wifa | Graphic Design Portfolio",
+  description: "A showcase of Ella Wifa’s clean, thoughtful, and expressive graphic design work — where simplicity meets impact.",
 };
 
 export default function RootLayout({
