@@ -59,7 +59,7 @@ export const metadata = {
     siteName: "Ella Wifa Portfolio",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.JPG",
         width: 1200,
         height: 630,
         alt: "Ella Wifa Graphic Design Portfolio",
@@ -73,7 +73,7 @@ export const metadata = {
     title: "Ella Wifa | Graphic Design Portfolio",
     description:
       "A showcase of Ella Wifa’s clean, thoughtful, and expressive graphic design work where simplicity meets impact.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.JPG"],
   },
 };
 
