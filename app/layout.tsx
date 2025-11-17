@@ -55,7 +55,7 @@ export const metadata = {
     title: "Ella Wifa | Graphic Design Portfolio",
     description:
       "A showcase of Ella Wifa’s clean, thoughtful, and expressive graphic design work where simplicity meets impact.",
-    url: "https://your-site-url.com",
+    url: "https://ella-wifa.vercel.app",
     siteName: "Ella Wifa Portfolio",
     images: [
       {
