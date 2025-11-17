@@ -49,7 +49,32 @@ const ppHatton = localFont({
 
 export const metadata = {
   title: "Ella Wifa | Graphic Design Portfolio",
-  description: "A showcase of Ella Wifa’s clean, thoughtful, and expressive graphic design work — where simplicity meets impact.",
+  description:
+    "A showcase of Ella Wifa’s clean, thoughtful, and expressive graphic design work where simplicity meets impact.",
+  openGraph: {
+    title: "Ella Wifa | Graphic Design Portfolio",
+    description:
+      "A showcase of Ella Wifa’s clean, thoughtful, and expressive graphic design work where simplicity meets impact.",
+    url: "https://your-site-url.com",
+    siteName: "Ella Wifa Portfolio",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Ella Wifa Graphic Design Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ella Wifa | Graphic Design Portfolio",
+    description:
+      "A showcase of Ella Wifa’s clean, thoughtful, and expressive graphic design work where simplicity meets impact.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
